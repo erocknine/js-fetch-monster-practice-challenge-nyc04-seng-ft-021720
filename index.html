@@ -3,14 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>Monstr</title>
-    <!-- <script src='js/index.js'></script> -->
-    <script src='js/demo.js'></script>
+    <script defer src='js/index.js'></script>
+    <!-- <script src='js/demo.js'></script> -->
   </head>
   <body>
     <h1>Monstr Inc.</h1>
     <div id='create-monster'></div>
     <div id='monster-container'></div>
-    <button id="back"><=</button>
-    <button id="forward">=></button>
-  </body>
+    <br>
+    <div id='page-buttons'>
+      <button class="back"><=</button>
+      <button class="forward">=></button> 
+      <div id='page-form'>
+        Page:<input type="text" class="insert-page">
+        <input type="submit" class="submit">
+      </div>
+    </div>
+    </body>
 </html>
